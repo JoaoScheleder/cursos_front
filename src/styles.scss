@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { 
+    height: 100%; 
+}
+body {
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(30, 30, 30);
+    font-size: 1rem;
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+button{
+  font-size: 1rem;
+}
+
+.mat-tooltip{
+  font-size: 0.8rem !important;
+}
+
+.snack-success{
+  color: rgb(189, 189, 189)!important;
+  background-color: rgb(4, 145, 4) !important;
+}
+
+.snack-err{
+  color: rgb(189, 189, 189)!important;
+
+  background-color: rgb(189, 4, 41) !important;
+}

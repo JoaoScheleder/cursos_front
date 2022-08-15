@@ -1,0 +1,10 @@
+<mat-dialog-content class="mat-typography">
+  <div style="width: 400px">
+    <p style="font-size:1.3rem">Excluir o aluno?</p>
+
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button style="font: size 1rem;" (click)="closeDialog(false)">Cancelar</button>
+  <button mat-raised-button color="warn" style="font: size 1rem;" (click)="closeDialog(true)" cdkFocusInitial>Excluir</button>
+</mat-dialog-actions>

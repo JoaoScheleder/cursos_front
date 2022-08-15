@@ -1,0 +1,38 @@
+h1{
+  margin-top: 16px   ;
+}
+#table-container,h1, .h-container{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+table {
+  width: 100%;
+  td,th{
+    font-size: 1rem;
+  }
+  }
+.h-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  mat-form-field{
+    width: 100%;
+    font-size: 1rem;
+  }
+  button{
+    font-size: 1rem;
+  }
+}
+
+mat-paginator{
+  font-size: 1rem;
+}
+
+::ng-deep .mat-select-value {
+  font-size: 1rem;
+}
+
+::ng-deep .mat-option-text {
+  font-size: 1rem;
+}

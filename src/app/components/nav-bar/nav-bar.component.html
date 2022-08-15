@@ -1,0 +1,17 @@
+<mat-toolbar>
+    <div>
+        <button mat-icon-button class="icon" matTooltip="Menu lateral" aria-label="icon-button with menu icon" (click) = "eventToggleSidenav()">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>Cursos VR</span>
+
+    </div>
+    <div>        
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="icon-button with fullscreen icon" (click)="openFullscreen()">
+          <mat-icon matTooltip="Tela cheia">fullscreen</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with dark mode icon"  (click)="changeTheme()">
+          <mat-icon  matTooltip="Tema escuro">dark_mode</mat-icon>
+        </button>
+    </div>
+  </mat-toolbar>

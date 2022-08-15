@@ -1,0 +1,21 @@
+<mat-dialog-content class="mat-typography">
+
+  <div style="width: 400px;font-size:1.2rem;">
+      <mat-form-field class="full-width" style="width: 100%" appearance="fill" >
+        <mat-label>Código</mat-label>
+        <input  matInput readonly [value]="aluno.codigo" >
+      </mat-form-field>
+    
+      <mat-form-field class="full-width" style="width: 100%" appearance="fill" >
+        <mat-label>Nome</mat-label>
+        <input matInput placeholder="Digite o nome"  [value]="aluno.nome" [formControl] = "nome_control">
+      </mat-form-field>
+  </div>
+
+
+
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cancelar</button>
+  <button mat-raised-button (click) = "closeDialogAndUpdate()" cdkFocusInitial>Atualizar</button>
+</mat-dialog-actions>

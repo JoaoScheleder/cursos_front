@@ -1,0 +1,11 @@
+<app-table
+title = "Cursos"
+[data] = "cursos"
+[dynamicColumns] = "['codigo', 'ementa', 'descricao']"
+[columns] = "['Código', 'Ementa', 'Descrição']"
+[Hyperlinked]="true"
+(delete) = "handleDelete($event)"
+(edit) = "handleEdit($event)"
+(create) = "handleCreate()"
+>
+</app-table>

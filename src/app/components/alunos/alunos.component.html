@@ -1,0 +1,10 @@
+<app-table
+title = "Alunos"
+[data] = "alunos"
+[dynamicColumns] = "['codigo', 'nome']"
+[columns] = "['Código', 'Nome']"
+(delete) = "handleDelete($event)"
+(edit) = "handleEdit($event)"
+(create) = "handleCreate()"
+>
+</app-table>

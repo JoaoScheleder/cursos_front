@@ -1,0 +1,11 @@
+
+<app-table
+title = "Matrículas"
+[data] = "matriculas"
+[dynamicColumns] = "['codigo_matricula','codigo','nome']"
+[columns] = "['Matrícula', 'Código Aluno', 'Nome']"
+(delete)="handleDelete($event)"
+(edit) = "handleEdit($event)"
+(create) = "handleCreate()"
+>
+</app-table>
